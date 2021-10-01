@@ -1,6 +1,6 @@
 /*
- * File: 5-printf.c
- * Return: always 0.
+ * main - Prints "Programming is like building a multilingual ..."
+ * Return: Always 0.
  */
 
 #include <stdio.h>
