@@ -19,4 +19,5 @@ int main(void)
 		d++;
 	}
 	return (0);
+	putchar('\n');
 }
