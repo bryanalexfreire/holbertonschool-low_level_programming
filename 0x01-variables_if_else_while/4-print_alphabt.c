@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	chat c = 'a';
+	char c = 'a';
 
 	while (c <= 'z')
 	{
