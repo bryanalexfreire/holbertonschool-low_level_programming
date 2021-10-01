@@ -1,10 +1,10 @@
 /**
- * main - This program will assign a random number to the variable n each timer it is executed.
+ * main - This program will assign a random number ...
  */
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-int main (void)
+int main(void)
 {
 	int n;
 	char last[] = "Last digit of";
@@ -18,11 +18,11 @@ int main (void)
 	}
 	else if (n % 10 == 0)
 	{
-		printf ("0\n");
+		printf("0\n");
 	}
 	else
 	{
 		printf("less than 6 and not 0\n");
 	}
-	return (0)
+	return(0)
 }
