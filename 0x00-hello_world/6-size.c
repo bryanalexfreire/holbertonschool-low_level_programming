@@ -1,4 +1,6 @@
-// File: 6-size.c
+/*
+  File: 6-size.c
+  */
 
 
 #include <stdio.h>
