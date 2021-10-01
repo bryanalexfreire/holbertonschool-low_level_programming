@@ -1,7 +1,6 @@
 /*
- *  * File: 5-printf.c
- *   * Auth: Bryan Freire
- *    */
+ *   File: 5-printf.c
+ */
 
 #include <stdio.h>
 
