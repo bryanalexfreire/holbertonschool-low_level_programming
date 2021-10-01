@@ -1,5 +1,5 @@
 /*
- * main - Prints "Programming is like building a multilingual ..."
+ * main - Prints "With proper grammar but  ..."
  * Return: Always 0.
  */
 
