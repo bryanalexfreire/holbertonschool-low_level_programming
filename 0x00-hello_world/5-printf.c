@@ -1,4 +1,4 @@
-/*
+/**
  * main - Prints "With proper grammar but  ..."
  * Return: Always 0.
  */
