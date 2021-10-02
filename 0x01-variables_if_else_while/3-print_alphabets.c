@@ -1,13 +1,14 @@
 /**
  * main -Print the alphabet in lowercase, and thn in ...
- * Return: 0 on success
+ * Return: 0 on success.
  */
+
 #include <stdio.h>
 int main(void)
 {
 	char c = 'a';
 	char d = 'A';
-
+	
 	while (c <= 'z')
 	{
 		putchar(c);
@@ -19,5 +20,4 @@ int main(void)
 		d++;
 	}
 	return (0);
-	putchar('\n');
 }
