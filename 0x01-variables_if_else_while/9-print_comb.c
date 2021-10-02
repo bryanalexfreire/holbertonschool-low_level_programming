@@ -1,4 +1,5 @@
 /**
+ * main - Prints all posible combinations of single-digit numbers
  * Return: 0 on success.
  */
 
