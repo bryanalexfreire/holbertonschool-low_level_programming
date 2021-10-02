@@ -1,5 +1,4 @@
 /**
- * main - Prints an possible combinations of single-digit numbers
  * Return: 0 on success.
  */
 
@@ -7,17 +6,17 @@
 
 int main(void)
 {
-	int b = '0';
+	int i = '0';
 
-	while (b <= '0')
+	while (i <= '0')
 	{
-		putchar(i);
-		if (b != '9')
+		piutchar(i);
+		if (i != '9')
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		++b;
+		++i;
 	}
 	return (0);
 }
