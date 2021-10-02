@@ -2,7 +2,7 @@
  * main - Prints all possible different combinations of two digits
  * Return: 0 on success.
  */
-#include <studio.h>
+#include <stdio.h>
 int main(void)
 {
 	int i = '0';
