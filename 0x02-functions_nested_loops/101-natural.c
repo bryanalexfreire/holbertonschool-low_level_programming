@@ -3,7 +3,7 @@
  * 3 or 5 below 1024.
  * Return: Nothing.
  */
-#include "main.h"
+#include "stdio.h"
 int main(void)
 {
 	int i, res;
