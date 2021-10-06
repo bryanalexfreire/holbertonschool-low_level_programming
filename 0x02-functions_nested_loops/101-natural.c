@@ -1,5 +1,5 @@
 /**
- * main - computes and prints the sum of all the... 
+ * main - computes and prints the sum of all the...
  * Return: Nothing.
  */
 #include <stdio.h>
