@@ -1,8 +1,8 @@
 /**
  * print_alphabet_x10 - Make alplabet x10 times
- * return: void
+ * Return: Always 0.
  */
-#include <stdio.h>
+#include <main.h>
 void print_alphabet_x10(void)
 {
 	char c;
