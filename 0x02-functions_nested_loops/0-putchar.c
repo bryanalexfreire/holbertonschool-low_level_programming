@@ -2,7 +2,7 @@
  * main - Function that prints the alphabet, in lowercase
  * Return: Always 0 (Succes)
  */
-#include <holberton.h>
+#include <main.h>
 int main(void)
 {
 	_putchar('H');
