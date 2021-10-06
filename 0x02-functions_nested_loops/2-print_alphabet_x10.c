@@ -1,8 +1,8 @@
-/** 
+/**
  * print_alphabet_x10 - Make alplabet x10 times
  * return: void
  */
-#include "holberton.h"
+#include <stdio.h>
 void print_alphabet_x10(void)
 {
 	char c;
@@ -10,7 +10,7 @@ void print_alphabet_x10(void)
 
 	while (i <= 9)
 	{
-		for (c = 'a'; c<= 'z'; c++)
+		for (c = 'a'; c <= 'z'; c++)
 		{
 			_putchar(c);
 		}
