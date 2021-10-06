@@ -1,5 +1,5 @@
 /**
- * main - Make alplabet x10 times
+ * print_alphabet_x10 - Make alplabet x10 times
  * Return: Always 0.
  */
 #include "main.h"
