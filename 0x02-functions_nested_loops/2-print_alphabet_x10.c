@@ -2,7 +2,7 @@
  * print_alphabet_x10 - Make alplabet x10 times
  * return: void
  */
-#omcñide "holberton.h"
+#include "holberton.h"
 void print_alphabet_x10(void)
 {
 	char c;
