@@ -3,20 +3,30 @@
  * Return: Always 0.
  */
 #include "main.h"
-int main(void)
+void print_triangle(int size)
 {
-	long x, y;
+	int x, y;
 
-	x = 612852475143;
-
-	for (y = 2; x > y; y++)
+	if (size > 0)
 	{
-		while (x % y == 0)
+		for (x = 1; x <= size; x++)
 		{
-			x = x / y;
+			for (y = 1; y <= size; y++)
+			{
+				if (y <= size - x)
+				{
+					_putchar(' ');
+				}
+				else
+				{
+					_putchar('#');
+				}
+			}
+			_putchar('\n');
 		}
 	}
-	printf("%lu", y);
-	putchar('\n');
-	return (0);
+	else
+	{
+		_putchar('\n');
+	}
 }
