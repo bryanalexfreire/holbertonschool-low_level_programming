@@ -1,7 +1,8 @@
 /**
  * _isdigit - Checks for a digit 0 - 9
- * @c: number
- * Return: Integer
+ * @a: a -  Variable
+ * @b: b - variable
+ * Return: Always 0.
  */
 #include "main.h"
 int mul(int a, int b)
