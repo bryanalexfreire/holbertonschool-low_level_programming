@@ -1,21 +1,20 @@
 /**
- * print_array - function that copies the string pointed to by src ...
- * @a: pointer int type
- * @n: is a int variable
+ * _strcpy - function that copies the string pointed to by src ...
+ * @dest: pointer char type
+ * @src: pointer char type
  * Return: Always 0.
  */
 #include "main.h"
 #include <stdio.h>
-void print_array(int *a, int n)
+char *_strcpy(char *dest, char *src)
 {
-	int i, inte;
+	int i;
 
-	for (i = 0; i < n; i++)
+	for (i = 0; *src != '\0'; i++)
 	{
-		inte = *(a + i);
-		printf("%d", inte);
-		if (i != n - 1)
-			printf(", ");
+		dest[i] = *src;
+		src++;
 	}
-	printf("\n");
+	dest[i++] = *src;
+	return (dest);
 }
