@@ -18,7 +18,7 @@ int main(void)
 	{
 		n = rand() % 10;
 		password[i] = seed[n];
-		passw += password[i];
+		password += password[i];
 	}
 	complem = 2772 - passw;
 	password[i] = complem;
