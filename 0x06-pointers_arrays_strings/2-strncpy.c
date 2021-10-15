@@ -1,7 +1,7 @@
 /**
- * _strncpy - concatenates two strings
+ * _strncpy - concatenates two strings n & s
  * @dest: dest string
- * @src: src string
+ * @src: src string 
  * @n: int n to copy
  * Return: pointer to resulting string
  */
