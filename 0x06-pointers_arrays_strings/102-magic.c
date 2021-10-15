@@ -1,6 +1,10 @@
 /**
  * main - write your line of code here...
  * Return: 0.
+ * you are not allowed to use a
+ * you are not allowed to modify p
+ * only one statement
+ * you are not allowed to code anything else than this line of code
  */
 #include "main.h"
 int main(void)
