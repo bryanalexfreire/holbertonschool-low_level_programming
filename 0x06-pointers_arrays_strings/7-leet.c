@@ -1,12 +1,12 @@
 /**
- * leet - leet encoding
+ * leet - function that encodes a string into 13
  * Return: pointer to arr
  * @s: string
  */
 #include "main.h"
 char *leet(char *s)
 {
-	char low_up[5][2] = {{'a', 'A'}, {'e', 'E'}, {'o', 'O'},{'t', 'T'}, {'l', 'L'}};
+	char low_up[5][2] = {{'a', 'A'}, {'e', 'E'}, {'o', 'O'}, {'t', 'T'}, {'l', 'L'}};
 	char values[] = {'4', '3', '0', '7', '1'};
 	int i = 0, j;
 
