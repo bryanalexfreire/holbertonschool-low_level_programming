@@ -1,9 +1,10 @@
 /**
- * _strncpy - concatenates two strings n & s
- * @dest: dest string
- * @src: src string 
- * @n: int n to copy
- * Return: pointer to resulting string
+ * _strncpy - copies a string
+ * @src: second string to copy from
+ * @dest: string to be overwritten
+ * @n: number of values to copy
+ * Description: copies string
+ * Return: pointer to dest
  */
 #include "main.h"
 char *_strncpy(char *dest, char *src, int n)
