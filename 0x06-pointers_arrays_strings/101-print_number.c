@@ -1,22 +1,19 @@
 /**
- * exponent - x to the power of y
- * @x: base number
- * @y: exponent
- * Return: x^y
+ * print_number - prints integers
+ * @n: number to be printed
+ * Return: nothing
  */
-int exponent(int x, int y)
+#include "main.h"
+void print_number(int n)
 {
-	int power;
+	unsigned int x = n;
 
-	power = x;
-	if (x == 0)
-		return (0);
-	if (y == 0)
-		return (1);
-	while (y >= 2)
+	if (n < 0)
 	{
-		power  = power * x;
-		y--;
+		_putchar('-');
+		x = -x;
 	}
-	return (power);
+		if ((x / 10) > 0)
+			print_number(x / 10);
+		_putchar((x % 10) + '0');
 }
