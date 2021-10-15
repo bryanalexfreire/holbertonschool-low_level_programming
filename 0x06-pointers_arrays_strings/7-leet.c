@@ -1,28 +1,22 @@
 /**
- * leet - function that encodes a string into 13
- * Return: pointer to arr
- * @s: string
+ * leet - convert string to leet speak
+ * @c: string to convert
+ * Return: string c
  */
 #include "main.h"
-char *leet(char *s)
+char *leet(char *c)
 {
-	char low_up[5][2] = {{'a', 'A'}, {'e', 'E'}, {'o', 'O'}, {'t', 'T'}, {'l', 'L'}};
-	char values[] = {'4', '3', '0', '7', '1'};
-	int i = 0, j;
+	int i, j;
+	char *replace;
 
-	while (s[i] != 0)
+	replace = "aAeEoOtTlL4433007711";
+	for (i = 0; c[i] != '\0'; i++)
 	{
-		char c = s[i];
-
-		for (j = 0; j < 5; j++)
+		for (j = 0; j <= 9; j++)
 		{
-			if (c == low_up[j][0] || c == low_up[j][1])
-			{
-				s[i] = values[j];
-				break;
-			}
+			if (c[i] == replace[j])
+				c[i] = replace[j + 10];
 		}
-		i++;
 	}
-	return (s);
+	return (c);
 }
