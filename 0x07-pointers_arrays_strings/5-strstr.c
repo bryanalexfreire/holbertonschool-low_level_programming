@@ -5,6 +5,7 @@
  * Return: aux value
  */
 #include "main.h"
+#include <stddef.h>
 char *_strstr(char *haystack, char *needle)
 {
 	char *aux;
@@ -12,9 +13,9 @@ char *_strstr(char *haystack, char *needle)
 
 	i = 0;
 	j = 0;
-	while (haystack[i] != '\n')
+	while (haystack[i] != '\0')
 	{
-		if (haystacks[i] == needle[j])
+		if (haystack[i] == needle[j])
 		{
 			aux = &haystack[i];
 			while (needle[i] != '\0')
