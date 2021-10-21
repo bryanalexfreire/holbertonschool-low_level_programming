@@ -1,7 +1,8 @@
 /**
- * _puts_recursion - function that prints a string, followed by a new line
- * @s: ponter to string
+ * _puts_recursion - function that prints a string...
+ * @s: ponter to string.
  * Return: string.
+ * Description: programa prints a string.
  */
 #include "main.h"
 void _puts_recursion(char *s)
@@ -16,9 +17,4 @@ void _puts_recursion(char *s)
 	{
 		putchar('\n');
 	}
-}
-int main(void)
-{
-	_puts_recursion("Puts with recursion");
-	return (0);
 }
