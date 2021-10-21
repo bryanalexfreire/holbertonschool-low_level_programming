@@ -4,6 +4,7 @@
  * @size: variable for array
  */
 #include "main.h"
+#include <stdio.h>
 void print_diagsums(int *a, int size)
 {
 	int i, j, p, l = 0, r = 0;
