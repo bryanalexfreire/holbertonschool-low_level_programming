@@ -4,6 +4,11 @@
  * @argv: Array name
  * Return: 1 if a non-integer is among the passed in arguments, 0 otherwise
  */
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include "main.h"
 int main(int argc, char *argv[])
 {
 	int i, j, length, sum;
