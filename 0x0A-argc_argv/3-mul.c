@@ -13,8 +13,8 @@ int main(int argc, char *argv[])
 
 	if (argc == 1 || argc == 2)
 	{
-			printf("Error\n");
-			return (1);
+		printf("Error\n");
+		return (1);
 	}
 	else
 	{
@@ -23,5 +23,5 @@ int main(int argc, char *argv[])
 			j *= atoi(argv[i]);
 		printf("%d\n", j);
 	}
-	return (0);
+		return (0);
 }
