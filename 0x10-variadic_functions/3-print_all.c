@@ -35,9 +35,10 @@ void print_all(const char * const format, ...)
 				if (s == NULL)
 					s = "(nil)";
 				printf("%s%s", separator, s);
-				break;default:
-					i++;
-				continue;
+				break;
+			default:
+				i++;
+			continue;
 		}
 		separator = ", ";
 		i++;
