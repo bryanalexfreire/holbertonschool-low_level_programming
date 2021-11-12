@@ -1,20 +1,18 @@
 /**
- * print_list - function that prints all the 
- * elements of a list_t list.
- * 
+ * print_list - A function that prints all the elements of a list_t list.
+ * @h: A constant variable of type list_t.
  * @file 0-print_list.c
- * @author Bryan Freire 
+ * @author Bryan Freire
  * @version 0.1
  * @date 2021-11-11
- * 
  * @copyright Copyright (c) 2021
- * 
+ * Return: i.
  */
 #include "lists.h"
 size_t print_list(const list_t *h)
 {
-    unsigned int i = 0;
-    const list_t *new = h;
+unsigned int i = 0;
+const list_t *new = h;
 
 	while (new != NULL)
 	{
