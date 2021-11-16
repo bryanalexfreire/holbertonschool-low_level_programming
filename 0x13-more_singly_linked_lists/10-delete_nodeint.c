@@ -5,7 +5,7 @@
  * @index: index of the list where the node is
  * deleted.
  * @file 10-delete_nodeint.c
- * @author your name (you@domain.com)
+ * @author Bryan Freire
  * @version 0.1
  * @date 2021-11-16
  * @copyright Copyright (c) 2021
